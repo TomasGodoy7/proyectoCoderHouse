@@ -1,0 +1,139 @@
+/*
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/*BODY */
+#body{
+width: 100%;
+}
+
+/*ESTILOS HEADER*/
+
+/* CAJA BUSCADOR Y LOGIN*/
+.background{
+    width: 100%;
+    background-color: black;
+    height: 35px;
+}
+
+.divBuscadorSesion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.divBuscadorSesion div{
+    display: flex;
+    gap: 20px;
+    margin-right: 45%;
+}
+.divBuscadorSesion div a{
+font-size: 14px;
+color: whitesmoke;
+}
+
+.divBuscadorSesion div a:hover{
+transition: 0.5;
+background-color: white;
+color: black;
+}
+
+@media (max-width:768px){
+
+
+        .background{
+            height: 50px;
+        }
+        .buscadorInput {
+            max-width: 100%;
+
+        }
+
+        .divBuscadorSesion {
+            flex-direction: column;
+            display: flex;
+        }
+        .divBuscadorSesion div{
+            display: flex;
+        align-items: center;
+            
+        }
+
+        .navbar-nav {
+            text-align:start;
+            
+        }
+
+        .navLogo {
+            margin: 0 auto;
+        }
+    }
+
+
+
+.buscadorInput{
+    border-color: white solid;
+    border-radius: 15px;
+    padding-left: 20px;
+
+}
+
+/* NAVEGADOR */
+.sectionCajaNav{
+    background-color: rgb(241, 202, 166);
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.navLogo{
+    width: 70px;
+    padding: 0px;
+
+}
+
+.navBar ul {
+display: flex;
+margin-left: 105px;
+gap: 30px;
+
+}
+.navBar ul li{
+    margin-left: 30px;
+    padding: 5px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.navBar ul li a {
+color: firebrick;
+}
+
+/*ESTILOS MAIN*/
+
+/* CAJA PARRAFO PRODUCTOS DESTACADOS*/
+.parrafo {
+    margin: 15px;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 20px;
+}
+
+hr{
+    width: 100%;
+    height: 4px;
+    margin: 100px;
+    margin-top: 0;
+    margin-left: 0;
+    background-color: black;
+    border: none;
+}
